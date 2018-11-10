@@ -1,3 +1,12 @@
-<p>
-  dashboard works!
-</p>
+<div class="container-fluid bg">
+
+    <!--main content-->
+    <div class="cards-container" >
+
+        <a *ngFor="let f of folders" href="#" class="card">
+            <h3>{{f.name}}</h3>
+            <p *ngFor="let b of f.bookmarks"><a href="{{b.url}}}">{{b.name}}</a></p>
+        </a>
+
+    </div>
+</div>

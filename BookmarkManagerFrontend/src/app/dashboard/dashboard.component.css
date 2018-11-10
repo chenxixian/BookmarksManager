@@ -1,0 +1,28 @@
+.bg {
+    background-color: red;
+}
+
+.cards-container {
+    width: 90%;
+    margin:50px auto;
+    column-width: 200px;
+    column-count: 5;
+    column-gap: 20px;
+}
+
+.card {
+    text-decoration: none;
+    padding: 1rem;
+    color:#424242;
+    box-shadow:0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card figure img {
+    width: 100%;
+    height: auto;
+}
+
+
