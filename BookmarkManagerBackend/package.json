@@ -1,0 +1,29 @@
+{
+  "name": "svc",
+  "version": "1.0.0",
+  "description": "an app that helps us manage bookmarks across platforms and devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "nodemon": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwhatley/BookmarksManager.git"
+  },
+  "keywords": [
+    "bookmarks"
+  ],
+  "author": "Fredy Whatley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwhatley/BookmarksManager/issues"
+  },
+  "homepage": "https://github.com/fwhatley/BookmarksManager#readme",
+  "dependencies": {
+    "hapi": "^17.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
