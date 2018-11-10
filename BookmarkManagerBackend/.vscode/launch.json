@@ -7,8 +7,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}\\server.js"
+            "name": "Debug server",
+            "program": "${workspaceFolder}/src\\server.ts",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/bin/**/*.js"
+            ]
         }
     ]
 }

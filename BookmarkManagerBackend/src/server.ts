@@ -1,9 +1,10 @@
 "'use strict:'" 
 
-const Hapi=require('hapi');
+import Hapi = require('hapi');
+import MOCKED_PAGES = require('./mock-pages');
 
 // create a server with a host and port
-const server=Hapi.server({
+const server= new Hapi.Server({
     host: 'localhost',
     port: 8000
 })
@@ -109,16 +110,16 @@ server.route({
         return "Hapi is alive and kicking";
     }
 });
-
+ 
 // page routes
 server.route({
     method:'GET',
     path:'/pages',
     handler:function(request, reply) {
-        return myObj;
+        return MOCKED_PAGES     ;
     }
 });
-
+ 
 server.route({
     method:'PUT',
     path:'/pages',
@@ -142,8 +143,6 @@ server.route({
         return "Hapi is alive and kicking";
     }
 });
-
-
 
 
 
