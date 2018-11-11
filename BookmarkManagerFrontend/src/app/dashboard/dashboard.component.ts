@@ -22,7 +22,6 @@ export class DashboardComponent implements OnInit {
     this.pages = MOCKED_PAGES;
     this.page = this.pages[0];
     this.folders = this.page.folders;
-    debugger;
   }
 
 }

@@ -1,6 +1,6 @@
 import { Folder } from './folder';
 export class Page {
-    id: number | undefined;
+    id: string | undefined;
     name: string | undefined;
     description: string | undefined;
     folders: Folder[] | undefined;

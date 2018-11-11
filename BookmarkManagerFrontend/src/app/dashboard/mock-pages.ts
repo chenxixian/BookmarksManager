@@ -20,7 +20,6 @@ function generatePages( countPages: number,
         pages.push(p);
     }
     return pages;
-
 }
 
 function generateFolders(folderCount: number, countBookmarks: number): Folder[] {

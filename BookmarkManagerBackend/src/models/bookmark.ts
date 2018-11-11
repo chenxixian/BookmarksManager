@@ -1,5 +1,6 @@
 export class Bookmark {
-    id: number | undefined;
+    id: string | undefined;
+    folderId: string | undefined;
     name: string | undefined;
     url: string | undefined;
 }
