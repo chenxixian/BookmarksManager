@@ -1,8 +1,15 @@
 # BookmarkManagerFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+Bookmark manager app is to share bookmark pages using newest technologies: Angular, Hapi, and Postgres.
+
+Backend project that goes along with this can be found at [https://github.com/fwhatley/BookmarksManager/tree/master/BookmarkManagerBackend](https://github.com/fwhatley/BookmarksManager/tree/master/BookmarkManagerBackend).
 
 ## Development server
+Required software
+- Node
+- [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+
+Run `npm install`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
